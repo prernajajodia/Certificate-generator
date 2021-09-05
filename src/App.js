@@ -1,10 +1,11 @@
 import "./App.css";
 import Template from "./Components/Template";
+import TemplateGenerator from "./Components/TemplateGenerator";
 
 function App() {
   return (
     <div className="App">
-      <Template />
+      <TemplateGenerator />
     </div>
   );
 }
